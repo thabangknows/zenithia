@@ -1,0 +1,129 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ifra {
+    margin: 1rem;
+    margin-left: 40%;
+}
+@media only screen and (max-width: 1500px) {
+    .ifra {
+        display: none;
+    }
+    
+}
+
+li {
+    list-style: none;
+}
+
+.hero {
+    padding: 4rem 20%;
+    background-image: url(./images/1.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 5px 5px black;
+    text-align: center;
+}
+
+.ttl-1 {
+    font-size: 4rem;
+}
+.ttl-2 {
+    font-size: 4rem;
+    color: #FFE15D;
+}
+.ttl-3{
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-1{
+    background-color: #FFE15D;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 8px 2rem;
+}
+.btn-2{
+    background-color: whitesmoke;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 8px 2rem;
+}
+.box-1 {
+    text-align: center;
+    
+}
+.box-2 {
+    background-color: #FFE15D;
+    text-align: center;
+    padding: 0rem 2rem;
+}
+.box-3 {
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    padding: 0rem 2rem;
+ 
+}
+.box-4 {
+    background-color: whitesmoke;
+    text-align: center;
+    padding:0px 5%;
+ 
+}
+.box-4 input{
+    background-color: white;
+    border: none;
+    margin: 5px;
+    padding:0.5rem;
+    border-radius: 10px;
+}
+
+.box-4  textarea {
+    background-color: white;
+    border: none;
+    margin: 5px;
+    padding:0.5rem;
+    border-radius: 10px;
+}
+.card-1 {
+    background: rgb(235,235,239);
+    background: linear-gradient(90deg, rgba(235,235,239,1) 0%, rgba(254,255,253,1) 37%, rgba(255,225,93,0.608356721594888) 100%);
+    padding:5rem 0.5rem 0.5rem 0rem;
+    border-radius: 10px;
+    margin: 10px;
+    min-width: 14rem;
+    min-height: 40dvh;
+}
+
+.card-2 {
+    background-color: #FFE15D;
+    border-radius: 10px;
+    margin: 10px;
+    min-width: 12rem;
+    min-height: 24rem;
+    padding:1rem;
+    text-align: left;
+}
+.con-side {
+    background-image: url(/assets/images/2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 2rem;
+}
+
+.a-box {
+    padding: 1rem 20%
+}
+
+.con-info {
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
